@@ -1,0 +1,187 @@
+1561692061431	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.qhDjnwrR7a2k"
+1561692062452	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561692062453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561692062453	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561692065408	Marionette	INFO	Listening on port 59271
+1561692065470	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript error: http://testweb.runningdoctor.cn/js/module/util.js, line 662: TypeError: window.localStorage is null
+1561692390462	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.CG4Dnh5GWW1u"
+1561692391295	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561692391296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561692391296	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561692393953	Marionette	INFO	Listening on port 59422
+1561692394002	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+1561692399094	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 178398: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 203341: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1561692613696	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.lstTvvG9iBM8"
+1561692614552	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561692614553	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561692614553	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561692642125	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.yRpFXqqfkNWs"
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561680011759%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+1561693309242	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.rftl4Xue9Naf"
+1561693310246	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561693310247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561693310247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561693312875	Marionette	INFO	Listening on port 59828
+1561693312918	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 12549, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1561693339352	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.Z90d1ZrB8pZl"
+1561693340058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561693340058	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561693340059	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561700306542	Marionette	INFO	Stopped listening on port 59271
+1561700626273	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.e2jYRweBX4MZ"
+1561700712822	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.YeaIQYfCRwzY"
+1561700713735	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561700713736	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561700713736	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561700743970	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.ew9RdLt3OAbh"
+1561701708489	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.ugWPEQgNUuz6"
+1561701709559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561701709560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561701709560	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561702442165	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.1mCGRNvu5H4G"
+1561702443196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561702443196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561702443196	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561702469937	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.oMorpCzqTSRR"
+1561702527416	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.h9AOkm98zgT8"
+1561702528231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561702528231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561702528231	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561702650386	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.cULNEVceMXHY"
+1561702967959	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.xzVBY9zCiLPq"
+1561702968937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561702968938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561702968938	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561702973721	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.zb2rJPtfCwYq"
+1561702974355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561702974355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561702974355	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561702977191	Marionette	INFO	Listening on port 64220
+1561702977236	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 138548: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 165251: unreachable code after return statement
+1561703315409	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.unjV7tRLgS4K"
+1561703316207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561703316207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561703316207	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561703318452	Marionette	INFO	Listening on port 64382
+1561703318512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 138548: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 165251: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 138548: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 165251: unreachable code after return statement
+1561703337033	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+[Parent 13038, Gecko_IOThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 726
+1561703366865	Marionette	INFO	Stopped listening on port 64382
+1561703369456	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.CeEJb44m3kkS"
+1561703370167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561703370168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561703370168	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561703372265	Marionette	INFO	Listening on port 64549
+1561703372357	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 138548: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 165251: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561680011759%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561680011759%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/task.js, line 11099: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/setting_new.js, line 3445: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/attendance.js, line 1439: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/js/module/customApp.js, line 2371: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 138548: unreachable code after return statement
+JavaScript warning: http://testweb.runningdoctor.cn/nativeApps/main.build.js?v=1.4, line 165251: unreachable code after return statement
+1561704217732	Marionette	INFO	Stopped listening on port 64549
+1561704219853	Marionette	INFO	Stopped listening on port 64220
+1561706346564	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/d6/6m96c4p92_7d9r8tpsrpf20m0000gn/T/rust_mozprofile.2ZfD3Nej1g1U"
+1561706347842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1561706347842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1561706347842	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1561706350463	Marionette	INFO	Listening on port 49564
+1561706350551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1561706355945	Marionette	WARN	TimedPromise timed out after 5000 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561680011759%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:203:13
+
