@@ -118,6 +118,7 @@ def MeetingManage_TestCase001(browser):
     MeetingManageChoice2 = browser.find_element_by_xpath('//div[@id="chosePersonBoxModal"]/div/div/div[3]/button[2]')
     browser.execute_script("arguments[0].click();", MeetingManageChoice2)
     # 设置打卡地点
+    time.sleep(3)
     MeetingCardAddr_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[8]/div/div/input'
     MeetingCardAddr = browser.find_element_by_xpath(MeetingCardAddr_xpath)
     browser.execute_script("arguments[0].click();", MeetingCardAddr)
