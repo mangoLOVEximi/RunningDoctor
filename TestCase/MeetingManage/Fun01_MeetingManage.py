@@ -105,9 +105,11 @@ def MeetingManage_TestCase001(browser):
     MeetingNotice_vals = SendVals('会议室注意事项')
     MeetingNotice.send_keys(MeetingNotice_vals)
     # 选择会议室管理员
+    time.sleep(3)
     MeetingManage_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[7]/div/div/input'
     MeetingManage = browser.find_element_by_xpath(MeetingManage_xpath)
     browser.execute_script("arguments[0].click();",MeetingManage)
+    time.sleep(3)
     MeetingManageChoice_xpath = '/html/body/div[34]/div/div/div/div/div[2]/div[1]/div[1]/input'
     MeetingManageChoice = browser.find_element_by_xpath(MeetingManageChoice_xpath)
     MeetingManageChoice.send_keys('唐莉')
