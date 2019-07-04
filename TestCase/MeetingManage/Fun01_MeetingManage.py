@@ -105,6 +105,7 @@ def MeetingManage_TestCase001(browser):
     MeetingNotice_vals = SendVals('会议室注意事项')
     MeetingNotice.send_keys(MeetingNotice_vals)
     # 选择会议室管理员
+    time.sleep(3)
     MeetingManage_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[7]/div/div/input'
     MeetingManage = browser.find_element_by_xpath(MeetingManage_xpath)
     MeetingManage.click()
@@ -157,6 +158,7 @@ WriteLog.WriteLog('../../Log/','打开会议室管理功能成功')
 # 运行测试用例
 WriteLog.WriteLog('../../Log/','###MeetingManage_TestCase001：添加会议室')
 MeetingManage_TestCase001(browser)
+WriteLog.WriteLog('../../Log/','###MeetingManage_TestCase001：添加会议室,运行成功！')
 WriteLog.WriteLog('../../Log/','###MeetingManage_TestCase002：编辑会议室')
 
 # 退出
