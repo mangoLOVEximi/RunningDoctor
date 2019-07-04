@@ -118,29 +118,26 @@ def MeetingManage_TestCase001(browser):
     MeetingManageChoice2 = browser.find_element_by_xpath('//div[@id="chosePersonBoxModal"]/div/div/div[3]/button[2]')
     browser.execute_script("arguments[0].click();", MeetingManageChoice2)
     # 设置打卡地点
-    time.sleep(3)
     MeetingCardAddr_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[8]/div/div/input'
     MeetingCardAddr = browser.find_element_by_xpath(MeetingCardAddr_xpath)
-    MeetingCardAddr.click()
-    time.sleep(3)
+    browser.execute_script("arguments[0].click();", MeetingCardAddr)
     MeetingCardAddr1 =browser.find_element_by_css_selector('input[id="attendAdminSetLocSearch"]')
     MeetingCardAddr1.send_keys('天府新谷10号楼')
     # MeetingCardAddr1.send_keys(Keys.ENTER)
     browser.implicitly_wait(configdata['WaitTime'])
     MeetingCardAddr2_xpath = '/html/body/div[34]/div/div/div/div/div[2]/div[1]/ul/li[1]'
     MeetingCardAddr2 = browser.find_element_by_xpath(MeetingCardAddr2_xpath)
-    MeetingCardAddr2.click()
+    browser.execute_script("arguments[0].click();", MeetingCardAddr2)
     MeetingCardAddr3 = browser.find_element_by_css_selector('button[id="confirmSelectLoc"]')
-    MeetingCardAddr3.click()
+    browser.execute_script("arguments[0].click();", MeetingCardAddr3)
     # 设置打开范围
     MeetingCardScope_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[9]/div/div/input'
     MeetingCardScope = browser.find_element_by_xpath(MeetingCardScope_xpath)
     MeetingCardScope.send_keys('100')
     # 提交内容
-    time.sleep(3)
     MeetingSubmit_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[3]/button[2]/span'
     MeetingSubmit = browser.find_element_by_xpath(MeetingSubmit_xpath)
-    MeetingSubmit.click()
+    browser.execute_script("arguments[0].click();", MeetingSubmit)
 
 # -----测试用例运行-----
 logContent = '----------会议室预定：会议室管理功能----------'
