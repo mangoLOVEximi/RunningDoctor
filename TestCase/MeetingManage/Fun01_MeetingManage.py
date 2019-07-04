@@ -105,19 +105,18 @@ def MeetingManage_TestCase001(browser):
     MeetingNotice_vals = SendVals('会议室注意事项')
     MeetingNotice.send_keys(MeetingNotice_vals)
     # 选择会议室管理员
-    time.sleep(3)
     MeetingManage_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[7]/div/div/input'
     MeetingManage = browser.find_element_by_xpath(MeetingManage_xpath)
-    MeetingManage.click()
+    browser.execute_script("arguments[0].click();",MeetingManage)
     MeetingManageChoice_xpath = '/html/body/div[34]/div/div/div/div/div[2]/div[1]/div[1]/input'
     MeetingManageChoice = browser.find_element_by_xpath(MeetingManageChoice_xpath)
     MeetingManageChoice.send_keys('唐莉')
     MeetingManageChoice1_xpath = ''
     MeetingManageChoice1 = browser.find_element_by_xpath('//div[@id="chosePersonBoxModal"]/div/div/div[2]/div/div/ul/li[@uid="55cee726e419beae7c8b45f8"]')
-    MeetingManageChoice1.click()
+    browser.execute_script("arguments[0].click();", MeetingManageChoice1)
     MeetingManageChoice2_xpath = '/html/body/div[34]/div/div/div/div/div[3]/button[2]'
     MeetingManageChoice2 = browser.find_element_by_xpath('//div[@id="chosePersonBoxModal"]/div/div/div[3]/button[2]')
-    MeetingManageChoice2.click()
+    browser.execute_script("arguments[0].click();", MeetingManageChoice2)
     # 设置打卡地点
     time.sleep(3)
     MeetingCardAddr_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[8]/div/div/input'
