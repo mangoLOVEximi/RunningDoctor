@@ -149,11 +149,11 @@ WriteLog.WriteLog('../../Log/',logContent)
 WriteLog.WriteLog('../../Log/','读取配置文件')
 configdata = GetConfigData.GetConfigData('../../Config/Config.txt')
 # 打开浏览器
-WriteLog.WriteLog('../../Log/','打开网址登陆')
 browser = OpenBrowser(configdata)
+WriteLog.WriteLog('../../Log/','打开网址登陆成功')
 # 打开功能网页
-WriteLog.WriteLog('../../Log/','打开会议室管理功能')
 browser = LoadUrl(browser)
+WriteLog.WriteLog('../../Log/','打开会议室管理功能成功')
 # 运行测试用例
 WriteLog.WriteLog('../../Log/','###MeetingManage_TestCase001：添加会议室')
 MeetingManage_TestCase001(browser)
