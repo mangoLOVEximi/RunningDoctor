@@ -124,6 +124,7 @@ def MeetingManage_TestCase001(browser):
     MeetingCardAddr_xpath = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[8]/div/div/input'
     MeetingCardAddr = browser.find_element_by_xpath(MeetingCardAddr_xpath)
     browser.execute_script("arguments[0].click();", MeetingCardAddr)
+    time.sleep(3)
     MeetingCardAddr1 =browser.find_element_by_css_selector('input[id="attendAdminSetLocSearch"]')
     MeetingCardAddr1.send_keys('天府新谷10号楼')
     # MeetingCardAddr1.send_keys(Keys.ENTER)
