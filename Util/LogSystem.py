@@ -14,7 +14,7 @@ def LogIn(logPath,configdata):
     # 打开浏览器
     browser = webdriver.Firefox()
     # 放大窗口
-    browser.fullscreen_window()
+    # browser.fullscreen_window()
     # 打开测试网址
     browser.get(configdata['WebUrl'])
     # 写日志
