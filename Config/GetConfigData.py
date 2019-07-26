@@ -30,5 +30,5 @@ def GetConfigData(path):
     return configdata_dict
 
 # 测试函数功能
-# data = GetConfigData()
-# print(data)
+#data = GetConfigData('./Config.txt')
+#print(data)
