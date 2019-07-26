@@ -48,11 +48,6 @@ def FindElement():
     定位元素
     :return:
     '''
-    eledict = {}
-    #
-    eledict['MeetingName_xpath'] = '/html/body/div[6]/div[8]/div[19]/div/div/div/div[3]/div[2]/div[1]/div/div/input'
-
-    return eledict
 
 def SendVals(vals):
     '''
@@ -171,3 +166,4 @@ WriteLog.WriteLog('../../Log/','###MeetingManage_TestCase002：编辑会议室')
 # browser = LogSystem.LogOut(browser)
 # 关闭浏览器
 # browser.quit()
+
