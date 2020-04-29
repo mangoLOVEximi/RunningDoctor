@@ -3,4 +3,4 @@ UserAccount=
 Password=
 UserName=唐莉
 WaitTime=60
-Hospital=58a177d8854cc9750e85c65a
+Hospital=6
